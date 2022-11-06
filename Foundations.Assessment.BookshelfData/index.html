@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="js/main.css">
+    <script src="js/book-data.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's BookShelf</title>
+    <nav class="links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+</head>
+<body>
+    <h1 id="shelfTitle">David's BookShelf</h1>
+    <section><b> Sort By 
+        <select id = "option"  >  
+        <option> ---Look for a Book--- </option>  
+        <option id = "sortAscending"> Sort Ascending </option>  
+        <option id = "sortDescending"> Sort Descending </option>  
+        <option id = "sortSubject"> Sort for most subjects </option>  
+        </select>
+    </b>  </section>
+     <!-- <header class = websiteHeader></header> -->
+     <section id = "bookSection"> Add a book!
+        <nav id = "addBook">
+            <input placeholder = "Title" id="titleUserInput">
+            <input placeholder = "Author" id="authorUserInput">
+            <input placeholder = "Language" id="languageUserInput">
+            <input placeholder = "Subjects" id="subjectsUserInput">
+            <button id= "submitButton">Submit</button>
+            </nav>
+    </section>
+    <div id="shelf"></div>
+    <ul id="allBookList"></ul>
+    
+</body>
+<script src="js/index.js"></script>
+<footer>
+</footer>
+</html>

@@ -1,0 +1,91 @@
+#shelfTitle {
+    display: flex;
+    text-align: center;
+    color: red;
+    font-size: 100px;
+    font-family:'Courier New', Courier, monospace;
+    justify-content: center;
+    background-color: grey;
+    border: 4px solid rgb(211, 211, 211)
+}
+
+body {
+    display: absolute;
+    justify-content: center;
+    background-image:  url("https://media.istockphoto.com/vectors/library-book-shelf-interior-graphic-sketch-black-white-illustration-vector-id1296200870?k=20&m=1296200870&s=612x612&w=0&h=i9XsURd4XALv2FKprmD7Dxl9zp9MoO-9fwBhI2JiJBw=");
+}
+
+#option {
+    size: 100px;
+    height: 30px;
+    width: 200px;
+    color: red;
+    align-items: center;
+}
+
+b {
+    color: red;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+
+section {
+    border: 1px solid red;
+    width: 700px;
+    height: 100%;
+    background-color: rgb(66, 66, 66);
+}
+
+.links {
+    display: flex;
+    vertical-align: left;
+    justify-content: space-evenly;
+    color: maroon;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: 8px solid rgb(184, 183, 183);
+    background-color: grey;
+}
+
+#contacts {
+    border: 4px solid gray;
+    background-color: rgb(201, 199, 199);
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+
+h2 {
+    size: 300px;
+    border: 2px solid gray;
+    background-color: rgb(201, 199, 199);
+    display: flex;
+    text-align: center;
+}
+
+#bookSection {
+    margin: 30px;
+    font-size: 40px;
+    height: 80px;
+    width: 600px;
+    color: red;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+}
+
+#addBook {
+    background-color: rgb(66, 66, 66);
+    font-size: 30px;
+
+}
